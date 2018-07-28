@@ -1,0 +1,87 @@
+body{
+    margin-left:10%;
+     margin-right:10%;
+    
+}
+#idtitle{
+    
+    margin:auto;
+    width:50%;
+    text-align:center;
+    color:maroon;
+    font-size:25px;
+}
+
+h3.clsheading{
+    width:100%;
+    background-color:gray;
+  }
+#rating{
+    border-collapse:collapse;
+    width:100%;
+}
+
+
+#rating th{
+    background-color: maroon;
+    padding-top:12px ;
+    padding-bottom:12px;
+    color:white;
+    text-align:left;
+}
+
+
+#rating tr:nth-child(even){
+    background-color: #ddd;
+}
+
+
+
+#rating tr:hover{
+    background-color:#f2f2f2;
+}
+
+
+
+#rating td,#rating th{
+    border:1px solid #f2f2f2;
+    padding:8px;
+}
+
+
+
+
+#idiccbcci{
+    width:300px;
+    height:200px;
+    border-radius:500px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+#star{
+    color:red;
+}
+
+label{
+    width:100px;
+    float:left;
+    
+}
+input.clsinput{
+    width:200px;
+    background-color:azure;
+    
+}
+form#idloginform{
+    background-color:lightgray;
+}
+
+
+input.clsbtn{
+    
+    color:white;
+    width:60px;
+    background-color:blue;
+}
